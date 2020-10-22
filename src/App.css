@@ -1,0 +1,26 @@
+.nav-container {
+    margin: auto; 
+}
+
+.nav-container svg{
+    margin: auto;
+    color: white;
+}
+
+.App{
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245);
+  
+}
+
+.AppPage{
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .AppPage{
+        width: 95%;
+        margin: auto;
+    }
+}
