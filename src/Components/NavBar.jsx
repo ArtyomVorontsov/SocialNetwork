@@ -20,7 +20,6 @@ const NavBar = ({ authenticated }) => {
                     <Toolbar className="nav-container">
                         <CreatePostButton />
                         <Notifications/>
-                        {/* <MyButton placement="bottom" Icon={NotificationsIcon} title="Notifications" /> */}
                         <MyButtonLink to="/" placement="bottom" Icon={HomeIcon} title="My profile" />
                         
                     </Toolbar>
